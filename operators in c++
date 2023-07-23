@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a=5;
+    int b=6;
+    cout<<"The types of operators are\n";
+    cout<<endl;
+    cout<<"1) Arithmetic operators:\n";
+    cout<<"The value of a+b is:"<<a+b<<".";
+     cout<<"\n The value of a-b is:"<<a-b<<".";
+      cout<<"\nThe value of a*b is:"<<a*b<<".";
+      cout<<"\nThe value of a/b is:"<<a/b<<".";
+      cout<<"\nThe value of a++ is:"<<a++<<".";
+      cout<<"\nThe value of a-- is:"<<a--<<".";
+      cout<<"\nThe value of ++a is:"<<++a<<".";
+      cout<<" \nThe value of --a is:"<<--a<<".";
+      cout<<endl;
+      cout<<"\n2)Comparison operators:\n\n";
+      cout<<"The value of a==b is"<<(a==b);
+      cout<<"\nThe value of a>=b is"<<(a>=b);
+      cout<<"\nThe value of a<=b is"<<(a<=b);
+      cout<<"\nThe value of a>b is"<<(a>b);
+      cout<<"\nThe value of a<b is"<<(a<b);
+      cout<<endl;
+      cout<<"\n3)logical operators:";
+      cout<<endl;
+      cout<<"\nThe value of  logical and operator ((a==) && (a>b) ) is:"<<((a==b) &&(a>b));
+       cout<<"\nThe value of  logical or operator ((a==) || (a>b) ) is:"<<((a==b) ||(a>b));
+       cout<<"\nThe value of  logical not operator ((a==) != (a>b) ) is:"<<((a==b) !=(a>b));
+       return 0;
+      
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
