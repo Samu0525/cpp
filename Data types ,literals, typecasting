@@ -1,0 +1,56 @@
+/*#include<iostream>
+using namespace std;
+int main(){
+
+
+//*******************Build in data types*******************
+int c=67;
+
+    int a,b;
+    cout<<"Enter the value of a:";
+    cin>> a;
+    cout<<"Enter the valueof b:";
+    cin>> b;
+    c=a-b;
+    cout<<"The difference of a-b is"<<c;
+    cout<<"\nThe value of global c is"<<::c;
+    
+
+
+//Float, doubbke and long doubble literals//
+
+float a=34.4F;
+long double k= 34.4L;
+cout<<"The size  of 34.4 is"<<sizeof(34.4);
+cout<<"\nThe size of 34.4f is"<<sizeof(34.4f);
+cout<<"\nThe size of 34.4F is"<<sizeof(34.4F);
+cout<<"\nThe size  of 34.4l is"<<sizeof(34.4l);
+cout<<"\nThe size  of 34.4L is"<<sizeof(34.4L);
+
+/*****************Reference variables**************/
+
+//samruddhi------>samu------->sumdyaaa---->samosa//
+/*#include<iostream>
+using namespace std;
+int main(){
+
+float x=6;
+float & y=x;
+cout<<x<<endl;
+cout<<y<<endl;
+return 0;
+}*/
+
+/*****typecasting******/
+/*#include<iostream>
+using namespace std;
+int main(){
+float a=45.46;
+int b =45;
+cout << "The value of a is"<<int(a);
+cout<<"\nThe value of a is "<<(int)a;
+cout <<"\nThe value of b "<<float(b);
+cout<<"\nThe value of b is "<<(float)b;
+cout <<"\nThe expression is"<<a+int(a);
+cout <<"\nThe expression is"<<b+float(b);
+return 0;}*/
