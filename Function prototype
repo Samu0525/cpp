@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+
+//Function prototype
+
+int sum(int a,int b);
+
+int main(){
+    int num1,num2;
+    cout<<"enter the value of num1"<<num1;
+    cin>>num1;
+    
+    cout<<"enter the value of num2"<<num2;
+    cin>>num2;
+    
+    cout<<"The sum is"<<sum(num1,num2);
+    void g(void);
+    return 0;
+}
+int sum( int a,int b){
+    int c=a+b;
+    return c;
+}
+void g(){
+    cout<<"hello; Good Evening!!";
+}
