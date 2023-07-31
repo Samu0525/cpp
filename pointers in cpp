@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+   /* what is a pointer? 
+    pointer is a data type which show address of other data types*/
+    //  &(address type)
+    int a=3;
+    int*b=&a;
+    cout<<"The address of a is "<<b;
+    cout<<"\nthe address of a is"<<&a;
+    
+    // *(value at)  deference operator
+    cout<<"\nthe value of address b is"<<*b;
+    return 0;
+}
