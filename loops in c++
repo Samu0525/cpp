@@ -1,0 +1,151 @@
+/*#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    /*Loops in c++*/
+    /*1) forloop
+      2) while Loop
+      3)do while loop*/
+
+
+       /* for loop in c++
+       
+      for(int i=0; i<10; i++ )
+      {
+          cout<<i <<endl;
+      }
+      */
+      
+      /*while loop in c++
+      int i=10;
+      while(i<=100){
+          cout<<i<<endl;
+          i++;
+      }*/
+      
+      /*do while loop in c++
+      int i=1;
+      do{
+          cout<<i<<endl;
+          i++;
+      }while(i<=40);
+      
+
+    return 0;
+}*/
+
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    
+   /* for( int i=1; i<=40;i++)
+    {
+    cout<<i<<endl;
+        
+    }*/
+    
+    /*int i=10;
+    while(i<=40){
+        cout<< i<<endl;
+        i++;*/
+        
+       /* int i=1;
+        do{
+            cout<<i<<endl;
+            i++;
+        }while(i<=40);
+        
+    
+    return 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
