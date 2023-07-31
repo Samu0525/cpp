@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int marks[4]={23,34,45,56};
+    cout<<"these are the values of marks";
+    cout<<"\nThe value of marks 0 is" <<marks[0];
+    cout<<"\n value of marks 1 is" <<marks[1];
+    cout<<"\n value of marks 2 is" <<marks[2];
+    cout<<"\nThe value of marks 3 is" <<marks[3];
+
+
+int mathmarks[]={2245,4456,334};
+cout <<"\n\nthese are the values of mathmarks";
+cout<<"\n\n value of mathmarks 0 is"<<mathmarks[0];
+cout<<"\nThe value of mathmarks 1 is"<<mathmarks[1];
+cout<<"\nThe value of mathmarks 2 is"<<mathmarks[2];
+cout<<"\n";
+for(int i=0;i<=4;i++){
+    cout<<"\nThe value of marks " <<i<< "is" <<marks[i];
+}
+ cout<<"\n";
+int i=0;
+while(i<=4){
+    cout<<"\nThe value of marks"<<i<<"is"<<marks[i];
+    i++;
+}
+cout<<"\n";
+int i =0;
+do{
+    cout<<"\nThe value of marks"<<i<< "is" <<marks[i];
+    i++;
+}while(i<=4);
+cout<<"\n";
+//pointers and arrays
+
+int*p=marks;
+cout<<"\nthe value of marks[0] is "<<*p;
+cout<<"\nthe value of marks[1] is "<<*(p+1);
+cout<<"\nthe value of marks[2] is "<<*(p+2);
+cout<<"\nthe value of marks[3] is "<<*(p+3);
+return 0;
+}
+
