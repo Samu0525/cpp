@@ -1,0 +1,70 @@
+/*#include <iostream>
+using namespace std;
+int main(){
+    /***********selection control statement: if else-if else ladder*********/
+
+   /* int age;
+    cout<<"Tell me your age:";
+    cin>>age;
+    if((age<18) && (age>0))     {
+    cout<<"You are not allowed to the party";
+    }
+    else if(age==18){
+        cout<<"You are a kid and you will get a kidpass to enter the party";
+    }
+    else if(age<1){
+        cout<<"you are not born";
+    }
+        else{
+            cout<<"You are allowed to attain the party";
+        }
+    
+    return 0;
+}*/
+
+
+/***********selection control statement: switch case*********/
+/*#include<iostream>
+using namespace std;
+int main(){
+    int age;
+    cout<<"Tell me your age:";
+    cin>>age;
+    switch(age){
+        case 18:
+        cout<<"your age is 18";
+        break;
+        case 22:
+        cout<<"your age is 22 ";
+        break;
+        case 87:
+        cout<<"your age is 87";
+        break;
+        default:
+        cout<<"No special cases";
+        
+    }
+    return 0;
+}*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
